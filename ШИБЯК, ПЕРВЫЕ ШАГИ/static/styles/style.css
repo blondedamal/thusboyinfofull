@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "SoyuzGrotesk";
+  src: url(fonts/Soyuz\ Grotesk\ Bold.woff) format(woff);
+}
+
+body {
+  background-color: f1f1f1;
+  color: black;
+  font-family: "SoyuzGrotesk", serif;
+  font-weight: 900;
+}
+
+::placeholder {
+  font-family: "SoyuzGrotesk", serif;
+}
+
+.photo {
+  height: 500px;
+  width: 600px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px 20px rgba(127 0 255);
+}
+
+.info p {
+  color: 000000;
+  margin: 0;
+}
+
+.piska {
+  font-weight: 900;
+  font-style: oblique;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.huy {
+  font-family: "SoyuzGrotesk";
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.gg {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.blya {
+  font-weight: bold;
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+  color: #6a5acd;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #800080;
+}
+
+.card {
+  padding: 15px 20px;
+  background-color: violet;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.govno {
+  background-color: white;
+}
+
+.lox {
+  background: linear-gradient(violet, violet);
+  padding: 0 20px;
+}
+
+.daun {
+  border: 10px solid skyblue;
+  border-image: linear-gradient(to right top, violet, skyblue, violet);
+  border-image-slice: 1;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.social {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.alkash {
+  background: linear-gradient(pink, purple, violet);
+}
+
+.lox li {
+  color: #8a2be2;
+  padding-bottom: 10px;
+}
+
+.ggg {
+  font-size: 24px;
+}
+
+table td:nth-child(2) {
+  background: linear-gradient(violet, #800080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+table td:nth-child(3) {
+  background: linear-gradient(red, #8b0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+table {
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pridurok {
+  height: 20vh;
+  width: 100vh;
+  text-align: center;
+}
+
+#zaebal {
+  text-align: center;
+}
+
+.a {
+  background-color: black;
+  color: ivory;
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+.a:hover{
+  opacity: 0.9;
+
+}
+@media (max-width: 10000000px){
+  .info{
+    text-align: center;
+    display: block;
+  }
+}
